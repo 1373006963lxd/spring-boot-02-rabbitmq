@@ -1,0 +1,14 @@
+首先启动RabbitMq
+        在windows上输入地址 localhost:15672进入登录界面  账号密码 guest
+        在虚拟机中首先docker pull Rabbitmq 在docker中拉取镜像
+                 然后直接启动即可
+                 （启动语句：docker run -d -p 5672:5672 -p 15672:15672 --name myrabbit 镜像ID）
+
+ -d 后台启动   -p 是端口映射   5672:5672 rabbitmq的客户端端口设置  15672 是浏览器访问的端口号映射
+然后在浏览器中登录  虚拟机的ip:15672
+
+
+
+
+
+
